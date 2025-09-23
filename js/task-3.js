@@ -1,7 +1,7 @@
-const form = document.querySelector("#name-input");
+const nameInput = document.querySelector("#name-input");
 const nameOutput = document.querySelector("#name-output");
 
-form.addEventListener("input", getValue);
+nameInput.addEventListener("input", getValue);
 function getValue(e){
 let userInput = e.target.value.trim();
 
